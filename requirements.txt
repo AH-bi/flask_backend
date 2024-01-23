@@ -1,0 +1,7 @@
+cprint                 
+django-jazzmin         
+Flask-Bcrypt           
+Flask-Cors             
+fuzzywuzzy             
+jsonify                
+mysql-connector-python 
