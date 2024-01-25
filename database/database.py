@@ -6,6 +6,7 @@ db = SQLAlchemy()
 def create_app():
     app = Flask(__name__)
     
+    app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://ahmedb01:123456789/**/ÇÇ_Ç_KJL@ahmedb01.mysql.pythonanywhere-services.com/tp_cicd'
     app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:@127.0.0.1:3309/tp_cicd'
 
 
