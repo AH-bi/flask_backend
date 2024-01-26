@@ -6,10 +6,8 @@ This is the backend application for our project. It is built using Flask, and it
 
 ### 1. Clone the Repository
 
-
-git clone https://github.com/AH-bi/tp_cicd.git
-cd tp_cicd.git
-cd backend
+git clone https://github.com/AH-bi/ahmed_binous_be.git
+cd ahmed_binous_be
 
 
 ### 2. Create a Virtual Environment
@@ -45,4 +43,8 @@ Run these commands from the root directory of the backend.
 To start the server, use the following command within the root directory of the backend:
 
 `python main.py`
+
+## Hosting the Backend (flask + mysql server)
+
+The backend is hosted on `ahmedb01.pythonanywhere.com´ the hosted version to interact with the frontend(React).
 

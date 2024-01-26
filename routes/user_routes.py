@@ -41,7 +41,13 @@ def add_user():
         db.session.add(new_user)
         db.session.commit()
 
-  
+        # Setting up session   
+        
+        """
+            session['user_id'] = user.id
+            session['user_login'] = user.login
+        """
+
         # Extract user details
         user_details = {'login': new_user.login, 'nom': new_user.nom, 'prenom': new_user.prenom}
         #return CustomJSONEncoder().encode({'message': 'User added successfully', 'user': user_details}), 201
